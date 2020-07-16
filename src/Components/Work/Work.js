@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './work.scss';
 import ProjectCard from '../ProjectCard/ProjectCard';
-// import gsap from 'gsap/gsap-core';
-// import { CSSRulePlugin } from 'gsap/all';
+import gsap from 'gsap/gsap-core';
+import { CSSRulePlugin } from 'gsap/all';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 
@@ -11,11 +11,11 @@ import 'aos/dist/aos.css'
 const Work = ()=>{
     useState(()=>{
         Aos.init({once: true, duration: 1000})
-        // gsap.registerPlugin(CSSRulePlugin)
-        // gsap.from('.title', 3, {
-        //     scale: 0.2,
-        //     color: 'red'
-        // })
+        gsap.registerPlugin(CSSRulePlugin)
+        gsap.from('.title', 3, {
+            scale: 0.2,
+            color: 'red'
+        })
     })
     return(
         <div className='work'>
