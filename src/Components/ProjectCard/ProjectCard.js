@@ -4,7 +4,7 @@ import './projectCard.scss';
 const ProjectCard = (props)=>{
     return(
         <div className='projectCard' data-aos='fade-up'>
-            <img src={props.img}/>
+            <img src={props.img} alt='img'/>
             <h2>{props.title}</h2>
         </div>
     )
