@@ -1,0 +1,37 @@
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    & img{
+        height: 80%;
+        width: 100%;
+        transition: 0.2s;
+    }
+    & h2{
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        position: relative;
+        opacity: 0;
+        transform: translateY(50%);
+        transition: 0.4s;
+        &::before{
+            content: '';
+            transition: 0.6s;
+            position: absolute;
+            height: 100%;
+            width: 0%;
+            border-bottom: 2px solid black;
+        }
+    }
+    &:hover{
+        & img{
+            transform: translateY(-5%);
+        }
+        & h2{
+            opacity: 1;
+            transform: translateY(0);
+            &::before{
+                width: 12%;
+            }
+        }
+    }
+}

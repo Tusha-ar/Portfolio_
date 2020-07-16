@@ -1,0 +1,19 @@
+@font-face{
+    font-family: det;
+    src: url('../../Assets/Fonts/Zector.otf');
+    
+}
+
+
+.det{
+    position: absolute;
+    width: 32%;
+    right: 0;
+    top: 60%;
+    margin-right: 2%;
+    line-height: 150%;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 27px;
+    overflow: hidden;
+}

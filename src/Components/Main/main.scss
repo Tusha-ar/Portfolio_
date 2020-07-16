@@ -1,0 +1,27 @@
+@font-face{
+    font-family: head;
+    src: url('../../Assets/Fonts/Library\ 3\ am.otf');
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    & img{
+        margin-top: 12%;
+        margin-left: 10%;
+        width: 50%;
+        height: 80%;
+        position: fixed;
+    }
+    & span{
+        // overflow: hidden;
+        bottom: 0;
+        font-family: head;
+        font-size: 100px;
+        position: fixed;
+        &::after{
+            content: 'shar';
+            color: white;
+        }
+    }
+}

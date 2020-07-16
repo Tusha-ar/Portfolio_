@@ -1,0 +1,14 @@
+@font-face{
+    font-family: Sign;
+    src: url('../../Assets/Fonts/Yonitta.ttf');
+}
+
+
+.header{
+    font-family: Sign;
+    font-size: 45px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin-top: 2%;
+}
