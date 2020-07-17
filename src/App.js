@@ -8,17 +8,17 @@ import Loading from './Components/Loading/Loading';
 
 
 function App() {
-  // const [loading, setLoading] = useState(true)
-  // useState(()=>{
-  //   setTimeout(()=>{
-  //     setLoading(false)
-  //   },5000)
-  // })
+  const [loading, setLoading] = useState(true)
+  useState(()=>{
+    setTimeout(()=>{
+      setLoading(false)
+    },5000)
+  })
   return (
     <div className="App">
-      {/* {
+      {
       loading? 
-      <Loading/>: */}
+      <Loading/>:
       <BrowserRouter>
         <Header/>
         <Nav/>
