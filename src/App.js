@@ -6,6 +6,10 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Work from './Components/Work/Work';
 import Loading from './Components/Loading/Loading';
 import Skills from './Components/Skills/Skills';
+import CSSPlugin from 'gsap/CSSPlugin';
+
+const C = CSSPlugin;  // here is the gotcha....
+
 
 
 function App() {
@@ -13,7 +17,7 @@ function App() {
   useState(()=>{
     setTimeout(()=>{
       setLoading(false)
-    },5000)
+    },1000)
   })
   return (
     <div className="App">

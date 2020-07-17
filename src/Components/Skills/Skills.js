@@ -2,9 +2,6 @@ import React, { useEffect } from 'react';
 import './skills.scss';
 import gsap from 'gsap';
 import { CSSRulePlugin } from 'gsap/all';
-import CSSPlugin from 'gsap/CSSPlugin';
-
-const C = CSSPlugin;  // here is the gotcha....
 
 
 const Skills=()=>{
@@ -12,6 +9,9 @@ const Skills=()=>{
         gsap.registerPlugin(CSSRulePlugin)
         gsap.from('.skills span', 1.2,{
             scale: 2
+        })
+        gsap.from('.bar',2,{
+            width: '0'
         })
     })
     return(
