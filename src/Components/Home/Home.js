@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './home.scss'
 import Main from '../Main/Main';
 
