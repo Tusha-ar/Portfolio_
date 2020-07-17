@@ -5,6 +5,7 @@ import Nav from './Components/Nav/Nav';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Work from './Components/Work/Work';
 import Loading from './Components/Loading/Loading';
+import Skills from './Components/Skills/Skills';
 
 
 function App() {
@@ -24,8 +25,9 @@ function App() {
         <Nav/>
         <Route exact path='/' component={Home}/>
         <Route path='/work' component={Work}/>
+        <Route path='/skills' component={Skills}/>
       </BrowserRouter>
-      {/* } */}
+      }
     </div>
   );
 }
