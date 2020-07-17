@@ -15,10 +15,13 @@ const Main = ()=>{
         gsap.from('.name',1.5,{
             scale: 0.2
         })
+        gsap.from('.img',2, {
+            scale: 0.1
+        })
     })
     return(
         <div className='main'>
-            <img src={img} alt='img'/>
+            <img src={img} alt='img' className='img'/>
             <span className='name'>Tu</span>
             <Details_Home/>  
         </div>

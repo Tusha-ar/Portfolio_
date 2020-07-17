@@ -17,9 +17,40 @@ const Skills=()=>{
     return(
         <div className='skills'>
             <span>Skills</span>
+            <p>
+                Skills are just a matter of perspective.<br/>
+                You can always learn a new one 😅.<br/>
+                And I am always learning new things.<br/>
+                Even the skills mentioned below are self taught 😉.
+            </p>
             <div className='skill_bar'>
-                <section className='bar' style={{width: '50%'}}>
-                    
+                <section className='bar' style={{width: '90%'}}>
+                    html
+                </section>
+            </div>
+            <div className='skill_bar'>
+                <section className='bar' style={{width: '55%'}}>
+                    ExpressJS
+                </section>
+            </div>
+            <div className='skill_bar'>
+                <section className='bar' style={{width: '88%'}}>
+                    sass
+                </section>
+            </div>
+            <div className='skill_bar'>
+                <section className='bar' style={{width: '74%'}}>
+                    ReactJS
+                </section>
+            </div>
+            <div className='skill_bar'>
+                <section className='bar' style={{width: '67%'}}>
+                    C++
+                </section>
+            </div>
+            <div className='skill_bar'>
+                <section className='bar' style={{width: '60%'}}>
+                    Python
                 </section>
             </div>
         </div>
