@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './work.scss';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import gsap from 'gsap/gsap-core';
@@ -9,11 +9,11 @@ import 'aos/dist/aos.css'
 
 
 const Work = ()=>{
-    useState(()=>{
+    useEffect(()=>{
         Aos.init({once: true, duration: 1000})
         gsap.registerPlugin(CSSRulePlugin)
-        gsap.from('.title', 3, {
-            scale: 0.2,
+        gsap.from('.title', 1.2, {
+            scale: 3,
             color: 'red'
         })
     })
