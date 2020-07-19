@@ -8,7 +8,7 @@ const Skills=()=>{
     useEffect(()=>{
         gsap.registerPlugin(CSSRulePlugin)
         gsap.from('.skills span', 1.2,{
-            scale: 2
+            scale: 0.2
         })
         gsap.from('.bar',2,{
             width: '0'

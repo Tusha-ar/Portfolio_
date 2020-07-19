@@ -13,7 +13,7 @@ const Work = ()=>{
         Aos.init({once: true, duration: 1000})
         gsap.registerPlugin(CSSRulePlugin)
         gsap.from('.title', 1.2, {
-            scale: 3,
+            scale: 0.3,
             color: 'red'
         })
     })

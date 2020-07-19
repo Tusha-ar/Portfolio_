@@ -7,7 +7,7 @@ const Contact =()=>{
     useEffect(()=>{
         gsap.registerPlugin(CSSRulePlugin)
         gsap.from('.title',1.2,{
-            scale: 3
+            scale: 0.2
         })
     },[])
     return(
