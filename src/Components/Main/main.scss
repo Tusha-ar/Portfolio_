@@ -7,14 +7,16 @@
     justify-content: space-between;
     height: 90vh;
     & img{
-        margin-top: 12%;
+        margin-top: 16%;
         margin-left: 10%;
         width: 50%;
         height: 80%;
+        bottom: 10px;
         position: fixed;
     }
     & span{
         bottom: 0;
+        left: 15px;
         font-family: head;
         font-size: 6.2em;
         position: fixed;
@@ -26,3 +28,20 @@
 }
 
 
+@media screen and (max-width: '900px'){
+    .main{
+        height: auto;
+        flex-direction: column;
+        margin-top: 20%;
+        position: absolute;
+        justify-content: center;
+        & img{
+            position: relative;
+            height: 50%;
+            width: 80%;
+        }
+        & span{
+            display: none;
+        }
+    }
+}

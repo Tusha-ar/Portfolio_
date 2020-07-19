@@ -10,7 +10,7 @@ const Details_Home = ()=> {
                 I am a Fullstack Web developer.<br/>
                 I create interactive web apps by using ReactJS.<br/>
                 Right now I am Persuing my B<strong>.</strong>E<strong>.</strong> from Chitkara University, Punjab<br/>
-                <strong>And looking for an Internship in the same field 😅....</strong>
+                And looking for an Internship in the same field 😅....
             </p>
         </div>
     )

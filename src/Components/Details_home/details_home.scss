@@ -17,3 +17,12 @@
     font-size: 27px;
     overflow: hidden;
 }
+
+@media screen and (max-width: '900px'){
+    .det{
+        position: relative;
+        margin: 0;
+        width: 100%;
+        padding: 20px;
+    }
+}
