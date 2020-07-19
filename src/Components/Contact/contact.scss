@@ -41,3 +41,17 @@
         }
     }
 }
+
+
+@media screen and (max-width: '900px'){
+    .contact{
+        .title{
+            font-size: 55px;
+            left: -17%;
+        }
+        & .all{
+            margin-top: 30%;
+            margin-left: 15%;
+        }
+    }
+}
