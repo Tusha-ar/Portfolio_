@@ -15,7 +15,7 @@ const Nav=()=>{
                 <Link to='/' className='link'><li>Home</li></Link>
                 <Link to='/work' className='link'><li>My work</li></Link>
                 <Link to='/skills' className='link'><li>My skills</li></Link>
-                <li>Contact</li>
+                <Link to='/contact' className='link'><li>Contact</li></Link>
             </ul>
         </div>
     )

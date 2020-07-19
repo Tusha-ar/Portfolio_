@@ -14,10 +14,9 @@
         position: fixed;
     }
     & span{
-        // overflow: hidden;
         bottom: 0;
         font-family: head;
-        font-size: 100px;
+        font-size: 6.2em;
         position: fixed;
         &::after{
             content: 'shar';
@@ -25,3 +24,5 @@
         }
     }
 }
+
+

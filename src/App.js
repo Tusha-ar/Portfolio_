@@ -7,6 +7,7 @@ import Work from './Components/Work/Work';
 import Loading from './Components/Loading/Loading';
 import Skills from './Components/Skills/Skills';
 import CSSPlugin from 'gsap/CSSPlugin';
+import Contact from './Components/Contact/Contact';
 
 const C = CSSPlugin;  // here is the gotcha....
 
@@ -30,6 +31,7 @@ function App() {
         <Route exact path='/' component={Home}/>
         <Route path='/work' component={Work}/>
         <Route path='/skills' component={Skills}/>
+        <Route path='/contact' component={Contact}/>
       </BrowserRouter>
       }
     </div>
